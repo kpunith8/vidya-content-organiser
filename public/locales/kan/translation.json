@@ -1,0 +1,37 @@
+{
+  "main": {
+    "site-title": "Content Organiser"
+  },
+  "home-page": {
+    "class": "ತರಗತಿ ಆಯ್ಕೆಮಾಡಿ",
+    "five": "5ನೇ ತರಗತಿ",
+    "six": "6ನೇ ತರಗತಿ",
+    "seven": "7ನೇ ತರಗತಿ",
+    "eight": "8ನೇ ತರಗತಿ",
+    "nine": "9ನೇ ತರಗತಿ",
+    "ten": "10ನೇ ತರಗತಿ",
+    "subject": "ವಿಷಯ ಆಯ್ಕೆಮಾಡಿ",
+    "maths": "ಗಣಿತ",
+    "science": "ವಿಜ್ಞಾನ",
+    "kannada": "ಕನ್ನಡ",
+    "english": "ಆಂಗ್ಲ ಭಾಷೆ",
+    "social": "ಸಮಾಜ ವಿಜ್ಞಾನ",
+    "hindi": "ಹಿಂದಿ",
+    "submit-button": "ಸಲ್ಲಿಸಿ",
+    "chapter": "ಅಧ್ಯಾಯ"
+
+  },
+  "about-page": {
+    "about": "ನಮ್ಮ ಗುರಿ"
+  },
+  "nav-links": {
+    "about": "ನಮ್ಮ ಬಗ್ಗೆ"
+  },
+  "footer": {
+    "author-name": "ಪುನೀತ್.ಕೆ",
+    "copyright": "ಹಕ್ಕುಸ್ವಾಮ್ಯ"
+  },
+  "misc": {
+    "coming-soon": "ಹೆಚ್ಚಿನ ಮಾಹಿತಿ ಶೀಘ್ರದಲ್ಲೇ ನಿಮ್ಮ ಮುಂದೆ"
+  }
+}

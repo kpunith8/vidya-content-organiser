@@ -1,0 +1,37 @@
+{
+  "main": {
+    "site-title": "Content Organiser"
+  },
+  "home-page": {
+    "class": "Choose Class",
+    "five": "5th Grade",
+    "six": "6th Grade",
+    "seven": "7th Grade",
+    "eight": "8th Grade",
+    "nine": "9th Grade",
+    "ten": "10th Grade",
+    "subject": "Choose Subject",
+    "maths": "Maths",
+    "science": "Science",
+    "kannada": "Kannada",
+    "english": "English",
+    "social": "Social Science",
+    "hindi": "Hindi",
+    "submit-button": "Submit",
+    "chapter": "Chaper"
+  },
+
+  "about-page": {
+    "about": "About our mission"
+  },
+  "nav-links": {
+    "about": "About Us"
+  },
+  "footer": {
+    "author-name": "Punith K",
+    "copyright": "Copyright"
+  },
+  "misc": {
+    "coming-soon": "More Info coming soon"
+  }
+}
