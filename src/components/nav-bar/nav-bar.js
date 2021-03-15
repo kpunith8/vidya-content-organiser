@@ -10,7 +10,7 @@ import Menu from "@material-ui/core/Menu";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
-import UIMode from "../utils/ui-mode";
+// import UIMode from "../utils/ui-mode";
 
 const useStyles = makeStyles((theme) => ({
   root: {
