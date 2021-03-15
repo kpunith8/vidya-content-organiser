@@ -62,11 +62,9 @@ const Home = () => {
   // Sort and make sure data available here using useMemo
   // TODO: Need to read from the API or use the static data for now
   const onBtnSubmitClick = async () => {
-    console.log("button submitted", choosenClass, subject);
     // const data = await axios.get(AWS_API_V1, {headers: {"Access-Control-Allow-Origin": "*"}})
     // console.log('data', await data)
     const data = SAMPLE_DATA[choosenClass]["kannada"][subject];
-    console.log(data.sort((a, b) => a.id - b.id));
     setContent(data);
   };
 
