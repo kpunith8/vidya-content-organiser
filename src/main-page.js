@@ -14,7 +14,7 @@ const About = lazy(() => import("./components/about/about"));
 const Home = lazy(() => import("./components/home/home"));
 
 const MainPage = () => {
-  const [defaultUIMode] = useLocalStorage("vidya-content-ui-mode", "dark");
+  const [defaultUIMode] = useLocalStorage("vidya-content-ui-mode", "light");
   const [selectedUIMode, setSelectedUIMode] = useState(defaultUIMode);
   const location = useLocation();
   const media480 = useMediaQuery("(max-width:480px)");
