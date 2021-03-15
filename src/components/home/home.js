@@ -39,12 +39,16 @@ const useStyles = makeStyles((theme) => ({
   },
   listItem: {
     fontSize: 16,
+    marginLeft: -20,
+  },
+  linkItem: {
+    textDecoration: "none",
   },
 }));
 
 const Home = () => {
   useGA(window.location.pathname);
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const media480 = useMediaQuery("(max-width:480px)");
 
   const [choosenClass, setClass] = React.useState(10);
@@ -125,18 +129,16 @@ const Home = () => {
                 <div key={data.id}>
                   <h2>
                     {`${t("home-page.chapter")}-${data.id}: `}
-                    {
-                      data.title[
-                        i18n.language === "kan" ? "kannada" : "english"
-                      ]
-                    }
+                    {data.title.kannada}
                   </h2>
                   {data.urls
                     .sort((a, b) => a.id - b.id)
-                    .map((aa) => (
-                      <ul key={aa.id}>
+                    .map((link) => (
+                      <ul key={link.id}>
                         <li className={classes.listItem}>
-                          <a href={aa.url}>{aa.url}</a>
+                          <a className={classes.linkItem} href={link.url}>{`${t(
+                            "home-page.part"
+                          )}-${link.id}`}</a>
                         </li>
                       </ul>
                     ))}
