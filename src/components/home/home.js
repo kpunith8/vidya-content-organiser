@@ -8,7 +8,6 @@ import Select from "@material-ui/core/Select";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
-import useGA from "../utils/use-ga";
 import { SAMPLE_DATA } from "../utils/service-helpers";
 
 const useStyles = makeStyles((theme) => ({
@@ -47,7 +46,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Home = () => {
-  useGA(window.location.pathname);
   const { t } = useTranslation();
   const media480 = useMediaQuery("(max-width:480px)");
 
